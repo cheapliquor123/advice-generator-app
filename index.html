@@ -8,6 +8,8 @@
   
   <title>Frontend Mentor | Advice generator app</title>
 
+  <link rel="stylesheet"  href="index.css">
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -15,14 +17,32 @@
   </style>
 </head>
 <body>
+  <div class="container">
+    <div class="card" id="card">
+      <div class="text">
+        <h2 class="title" id="title">
+          Advice <span id="adviceID">#</span>
+        </h2>
+        <p class="adviceText" id="adviceText">
+          “I'm unpredictable, I never know where I'm going until I get there, I'm so random, 
+          I'm always growing, learning, changing, I'm never the same person twice." 
+          
+        </p>
+          <img src="\images\pattern-divider-desktop.svg" alt="divider">
+      </div>
 
-  Advice #<!-- Advice ID goes here -->
-
-  "<!-- Advice text goes here -->"
-  
+      <button class="btn" id="btn">  
+        <img src="\images\icon-dice.svg" alt="Icon Dice">
+      </button>
+        
+      
+      
+    </div>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Madan Telugu</a>.
   </div>
+  <script src="index.js"></script>
 </body>
 </html>
